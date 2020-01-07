@@ -1,6 +1,6 @@
 #! /home/vkhalaim/hexlet/bin/python
 
-from brain_games.cli import run
+from brain_games.games.cli import run
 
 
 def start():
