@@ -1,5 +1,8 @@
+--- 
+before_install: 
+  - "pip install poetry"
+install: make
 language: python
+lint: 
+  - "make lint"
 python: 3.6
-
-lint: make lint
-
