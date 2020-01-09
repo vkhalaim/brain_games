@@ -9,4 +9,11 @@ pip install -i https://test.pypi.org/simple/ --extra-index https://pypi.org/simp
 ```
 
 ## asciinema
+
+### Brain even game
+
 [![asciicast](https://asciinema.org/a/evIWEMK44ETHm2r1YuioWErCB.svg)](https://asciinema.org/a/evIWEMK44ETHm2r1YuioWErCB)
+
+### Brain calculator game
+
+[![asciicast](https://asciinema.org/a/fH6sHVMgHhGcos6Wj6hhjOBgT.svg)](https://asciinema.org/a/fH6sHVMgHhGcos6Wj6hhjOBgT)
