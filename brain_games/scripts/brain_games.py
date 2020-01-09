@@ -1,14 +1,9 @@
 #! /home/vkhalaim/hexlet/bin/python
 
-from brain_games.games.cli import run
-
-
-def start():
-    print("Welcome to the Brain Games!")
+from brain_games.cli import run
 
 
 def main():
-    start()
     run()
 
 
