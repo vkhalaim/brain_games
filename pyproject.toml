@@ -1,8 +1,14 @@
 [tool.poetry]
 name = "vkhalaim_brain_games"
 version = "0.7.1"
-description = ""
+description = "Brain Games for sonsole"
+readme = "README.md"
 authors = ["kosheniatko <vasyl.khalaim@ukr.net>"]
+repository = "https://github.com/vkhalaim/brain_games"
+classifiers = [
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 packages = [
     { include = "brain_games" },
   ]
