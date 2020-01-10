@@ -1,4 +1,4 @@
-#! /home/vkhalaim/hexlet/bin/python
+#!/usr/bin/env python3
 
 from brain_games.cli import start_game
 import brain_games.games.even as even
