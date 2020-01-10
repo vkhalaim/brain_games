@@ -25,3 +25,7 @@ pip install -i https://test.pypi.org/simple/ --extra-index https://pypi.org/simp
 ### Brain progression game
 
 [![asciicast](https://asciinema.org/a/WtjZbeD1BZEnqmkbR79LuMUmI.svg)](https://asciinema.org/a/WtjZbeD1BZEnqmkbR79LuMUmI)
+
+### Brain prime number game
+
+[![asciicast](https://asciinema.org/a/CWKkyAxNKzxIvHs7LI0eLKLzH.svg)](https://asciinema.org/a/CWKkyAxNKzxIvHs7LI0eLKLzH)
