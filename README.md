@@ -17,3 +17,7 @@ pip install -i https://test.pypi.org/simple/ --extra-index https://pypi.org/simp
 ### Brain calculator game
 
 [![asciicast](https://asciinema.org/a/fH6sHVMgHhGcos6Wj6hhjOBgT.svg)](https://asciinema.org/a/fH6sHVMgHhGcos6Wj6hhjOBgT)
+
+### Brain greatest common divisor
+
+[![asciicast](https://asciinema.org/a/fMYtu5pzhEG547re8260l0tpR.svg)](https://asciinema.org/a/fMYtu5pzhEG547re8260l0tpR)
