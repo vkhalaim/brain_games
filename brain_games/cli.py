@@ -3,7 +3,7 @@ import prompt
 ROUNDS = 3
 
 
-def run(greeting=None):
+def get__user_name(greeting=None):
     print('Welcome to the Brain Games!')
 
     if greeting:
@@ -16,7 +16,7 @@ def run(greeting=None):
 
 def start_game(game):
     game_greeting = game.GAME_RULE
-    name = run(game_greeting)
+    name = get__user_name(game_greeting)
 
     for i in range(0, ROUNDS):
         question, correct_answer = game.round()
@@ -26,7 +26,7 @@ def start_game(game):
         if answer != correct_answer:
             print('{0} is wrong answer ;(. Correct answer was {1}.\n \
             Let\'s try again, {2}!'.format(answer, correct_answer, name))
-            return None
+            return
 
         print('Correct!')
 
