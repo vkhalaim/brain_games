@@ -3,7 +3,7 @@ import prompt
 ROUNDS = 3
 
 
-def get__user_name(greeting=None):
+def get_user_name(greeting=None):
     print('Welcome to the Brain Games!')
 
     if greeting:
@@ -16,7 +16,7 @@ def get__user_name(greeting=None):
 
 def start_game(game):
     game_greeting = game.GAME_RULE
-    name = get__user_name(game_greeting)
+    name = get_user_name(game_greeting)
 
     for i in range(0, ROUNDS):
         question, correct_answer = game.round()

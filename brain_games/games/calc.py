@@ -9,9 +9,9 @@ OPERATORS = [('+', add), ('-', sub), ('*', mul)]
 def round():
     number1 = randint(0, MAX_NUMBER)
     number2 = randint(0, MAX_NUMBER)
-    operator = choice(OPERATORS)
+    operator, operation = choice(OPERATORS)
 
-    question = '{0} {1} {2}'.format(number1, operator[0], number2)
-    correct_answer = str(operator[1](number1, number2))
+    question = '{0} {1} {2}'.format(number1, operator, number2)
+    correct_answer = str(operation(number1, number2))
 
     return question, correct_answer

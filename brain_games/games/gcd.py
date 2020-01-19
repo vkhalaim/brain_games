@@ -16,6 +16,6 @@ def round():
     num2 = randint(0, MAX_NUM)
 
     correct_answer = str(gcd(num1, num2))
-    question = str(num1) + ' ' + str(num2)
+    question = '{0} {1}'.format(num1, num2)
 
     return question, correct_answer

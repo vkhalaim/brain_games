@@ -18,8 +18,8 @@ def round():
         element += step_progression
         if i == missed_element_index:
             missed_element = element
-            question += '.. '
+            question += '..'
         else:
-            question += str(element) + ' '
-
+            question += str(element)
+        question += ' '
     return question, str(missed_element)
